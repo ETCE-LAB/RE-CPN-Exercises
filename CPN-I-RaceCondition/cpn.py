@@ -3,7 +3,7 @@ import snakes.plugins
 # Load SNAKES with graphviz plugin for drawing
 snakes.plugins.load("gv", "snakes.nets", "nets")
 
-from Tutorial import simulator
+from lib import simulator
 
 from nets import (
     PetriNet,

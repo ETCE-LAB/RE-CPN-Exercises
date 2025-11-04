@@ -46,4 +46,5 @@ def run_simulation(net: PetriNet, transitions: list, limit=20) -> bool:
         net.draw(str(net) + "-" + str(counter) + ".png")
         chosen_transition = run_once(net, transitions)
 
+    net.draw(str(net) + "-" + str(counter) + ".png")
     return counter
