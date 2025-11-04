@@ -11,7 +11,7 @@
   
     * To Simulate the petri net and generate Simulation State PNG images:
     
-    ```
+    ```python
     from lib import simulator
     
     # Define your petri net
@@ -27,6 +27,9 @@
 
 
     ```
+    
+    
+    
     If the simulation has no errors, png images of the petri net "MyPetriNet-*.png" images will appear in the root directory ordered by the simulation state index:
     
     ![RaceCondition-0](RaceCondition-0.png)
