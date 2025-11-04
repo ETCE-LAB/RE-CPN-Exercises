@@ -1,3 +1,5 @@
+  * About This repository hosts example code and tutorials for CPN Exercises,
+    and is a part of the material of [Requirements Engineering Lecture Course](https://github.com/ETCE-LAB/teaching-material/tree/master/Requirements-Engineering).
   * Installation
   
   This project manages the python dependencies using
