@@ -3,13 +3,20 @@
   This project manages the python dependencies using
   [pipenv](https://pipenv.pypa.io/)
   
-  `pipenv install`
+  ```shell
+  pipenv install
+  pipenv activate
+  ```
   
   * Usage
   
-  Please refer to the documentation of [SNAKES CPN](https://snakes.ibisc.univ-evry.fr/)
+  - Please refer to the documentation of [SNAKES CPN](https://snakes.ibisc.univ-evry.fr/)
+  - For examples refer to [CPN-I](CPN-I-RaceCondition), and [CPN-II](CPN-II-ChargingStation)
+
   
     * To Simulate the petri net and generate Simulation State PNG images:
+    
+    
     
     ```python
     from lib import simulator
